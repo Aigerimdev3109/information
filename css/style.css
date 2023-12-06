@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container {
-    width: 1470px;
+    width: 1500px;
     margin: 0 ;
 }
 
@@ -58,10 +58,11 @@ margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content:center;
-   margin-left: 100px;
+   gap: 70px;
    bottom: 860px;
-
-   
+}
+.work a{
+  margin: 0 30px;
 }
 .jk-1 span {
     color:#0CA941;;
@@ -99,7 +100,7 @@ cursor: pointer;
 }
 .start-3 {
 position: relative;
-margin-left: 280px;
+margin-left: 350px;
 padding-top: 800px;
 
 
@@ -890,7 +891,7 @@ background: solid 1px#BF7949;;
     width: 400px;
     height: 400px;
    margin-top: -670px;
-    margin-left:1067px;
+    margin-left:1130px;
     transform: translateY(5px);
 }
 
@@ -917,7 +918,7 @@ background: solid 1px#BF7949;;
 }
 
 
-.now {
+#menuToggle {
     display: none;
 }
 
@@ -1648,11 +1649,7 @@ margin-top: -100px;
         width: 100px;
       
     }
-    .start img {
-        width: 150px ;
-        height: 150px;
-        
-    }
+    
     /* hey  */
     .now {
         display: flex;
@@ -1662,8 +1659,8 @@ margin-top: -100px;
   display: block;
   position: relative;
   top: 7px;
-  left: -177px;
-  
+  left: -427px;
+  margin-top: -20px;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -1715,7 +1712,7 @@ transition: 0.3s;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #1aba37;
   border-radius: 3px;
   
   z-index: 1;
@@ -1768,11 +1765,11 @@ transition: 0.3s;
 #menu
 {
   position: absolute;
-  width: 530px;
+  width: 560px;
   margin: -230px 0 0 480px;
   padding: 10px;
   padding-top: 160px;
-  margin-left: -750px;
+  margin-left: -486px;
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -1805,7 +1802,7 @@ transition: 0.3s;
     .start-1 img {
         width: 35px;
         height: 35px;
-        padding: 0 -50px 0 -100px;
+       padding-left: 50px;
     }
     .start-1 {
         margin-left: -80px;
@@ -1814,27 +1811,27 @@ transition: 0.3s;
      font-size: 20px;
     }
     .start-2 button  {
-       margin-left: -130px;
-
+       margin-left: -400px;
+margin-top: -60px;
     }
-    .start-2 a {
+    .work a {
         display: none;
     }
     .jk-1 h1 {
-  font-size: 25px;
-  margin-left: -100px;
-  margin-top: -50px;
+  font-size: 21px;
+  margin-left: -150px;
+  position: relative;
+  transform: translateY(-35px);
     }
     .jk-1 p {
-      
-  font-size: 10px;
-  margin-top: 10px;
- margin-left: -100px;
+     margin: -150px 0 50px -170px;
+  font-size: 9px;
+  margin-top: -10px;
  line-height: 22px;
     }
     .jk-2 {
         position: relative;
-        transform: translateX(-100px);
+        transform: translateX(-150px);
         bottom: 20px;
     }
     .jk-2  button {
@@ -1853,25 +1850,22 @@ transition: 0.3s;
     .jk-99 img {
      width: 60px;
      height: 60px;
-     margin-left: 20px;
+     margin-left: -10px;
      margin-top: -10px;
     }
     .jk-101 img {
-   width: 300px;
-   height: 300px;
-   margin-top: -60px;
-   margin-right: -100px;
+   display: none;
     }
     .jkk img {
         position: absolute;
-        right: -160px;
-        width: 350px;
-        height: 350px;
-        
+        right: -20px;
+        width: 250px;
+        height: 250px;
+        margin-top: 490px;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-130px);
+        transform: translateX(-330px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -1883,7 +1877,7 @@ transition: 0.3s;
     padding-top: 200px;
    }
    .start img {
-    margin-left: 40px;
+    margin-left: -10px;
     
    }
    .lol {
@@ -1895,60 +1889,68 @@ transition: 0.3s;
    }
    .jk-10 {
     position: relative;
-    bottom: 135px;
-    width: 750px;
+    margin-top: -270px;
+    width: 573px;
     height: 200px;
    }
    .card-2 {
     position: relative;
     bottom: 100px;
-    width: 600px;
-    height: 150px;
-    margin-left: 100px;
-
+    width: 500px;
+    height: 100px;
+    margin-left: 60px;
+  margin-top: -170px;
    }
    .card-3 img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    margin-top: -40px;
     margin-left: -90px;
    }
    .card-3 h2 {
-    padding-top: 75px;
-    font-size: 20px;
-    margin-right: 10px;
+    padding-top: 124px;
+    font-size: 13px;
+    margin-left: 40px;
+    line-height: 20px;
    }
    .card-3 p {
     margin-top: -18px;
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 20px;
+     margin-left: 40px;
    }
    .card-4 {
     position: relative;
-    margin-left: 450px;
+    margin-left: 550px;
     width: 300px;
     gap: 30px;
 
    }
+   
    .pop p {
-    padding-top: 2px;
-    font-size: 20px;
+    padding-top: 5px;
+    font-size: 15px;
     margin-left: 7px;
+    margin-top: 11px;
    }
    .pop h5 {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 20px;
    }
    .pop-1 img {
-    margin-bottom: 5px;
-    width:50px;
-    height: 50px;
+    margin-top: 30px;
+    width:30px;
+    height: 30px;
    }
    .card-44 {
-    margin-top: -100px;
+ margin-left: -130px; 
+ padding: 0 -50px;
    }
    .carding img { 
-    margin: -160px 0 0 140px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 200px;
    }
    .info-1 {
     width: 100px;
@@ -1959,33 +1961,34 @@ transition: 0.3s;
     height: 100px;
    }
    .boo  {
-    width: 300px;
-    height: 300px;
-    margin-left: -60px;
+    width: 200px;
+    height: 200px;
+    margin-left: -120px;
    }
    .info-4 {
     width: 200px;
     height: 100px;
-    margin: 0;
+    margin-top: -90px;
     padding-left: 150px; 
    }
    .flower {
     position: absolute;
-    transform: translateX(-50px);
+    transform: translateX(-120px);
     margin-top: -580px;
    }
    .flowers {
-    margin-top: 100px;
-    margin-left: -50px;
-width: 70px;
-height: 80px;
+    margin-top: 110px;
+    margin-left: -130px;
+width: 60px;
+height: 66px;
    }
    .flol {
-height: 200px;
+height: 100px;
 margin-right: 140px;
+margin-top: 95px;
    }
    .people {
-   margin-bottom: 10px;
+  margin-top: 30px;
     width:90px;
     height: 130px;
    }
@@ -1995,43 +1998,47 @@ margin-right: 140px;
    }
    .info-20 {
     position: absolute;
-    left: 100px;
+    left: 10px;
     margin-top: -310px;
-    width: 260px;
+    width: 220px;
     height: 10px;
     
    }
+   .info-99 {
+    margin-top: -90px;
+   }
    .info-99 h1 {
     margin-top: -70px;
-   margin-left: -50px;
+   margin-left: -200px;
    font-size: 24px;
    line-height: 30px;
    }
    .info-99 p {
-    margin-top: -50px;
-   font-size: 13px;
-   margin-left: -50px;
+    margin-top: -60px;
+   font-size: 10px;
+   margin-left: -200px;
+   line-height: 20px;
    }
    .name button {
     
-    width: 100px;
-    height: 40px;
-    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
     padding-left: -10px;
    }
    .name img {
-    margin-top: -15px;
-    margin-left: -30px;
+    margin-top: -20px;
+    margin-left: -20px;
     width: 15px;
     height: 15px;
    }
    .name {
-    margin-left: -40px;
+    margin-left: -190px;
     margin-top: -30px;
    }
    .nextt img {
     position: absolute;
-    transform: translateX(-270px);
+    transform: translateX(-450px);
 width: 50px;
 height: 50px;
 top: -10px;
@@ -2039,12 +2046,16 @@ top: -10px;
    }
    .flyy h2 {
 font-size: 20px;
-margin-left: -130px;
+margin-left: -190px;
+   }
+   .flyy {
+    margin-top: -200px;
    }
    .flyy p {
-   font-size: 13px;
-   margin-left: -130px;
+   font-size: 10px;
+   margin-left: -190px;
    width: 600px;
+   line-height: 20px;
    }
    .blue button {
     width: 100px;
@@ -2057,17 +2068,20 @@ margin-left: -130px;
     margin-left: -30px;
    }
    .blue {
-    margin-left: -90px;
+    margin-top: -20px;
+    margin-left: -190px;
    }
    .nextti img {
     width: 80px;
     height: 80px;
-    margin-left: -330px;
+    margin-left: -420px;
     padding-top: 110px;
    }
    .color {
-    margin-left: -300px;
-    padding-top: 200px;
+    margin-left: -390px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100px;
    }
    .orange {
     position: relative;
@@ -2077,8 +2091,8 @@ margin-left: -130px;
     border-radius: 94.988px;
 background: rgba(255, 233, 120, 0.932);
 filter: blur(125px);
-width: 94.988px;
-height: 94.988px;
+width: 54.988px;
+height: 54.988px;
    }
    .orange-2 {
     position: relative;
@@ -2088,8 +2102,8 @@ height: 94.988px;
     border-radius: 104.988px;
 background: rgba(255, 233, 120, 0.916);
 filter: blur(125px);
-width: 104.988px;
-height: 104.988px;
+width: 74.988px;
+height: 74.988px;
    }
    .green {
     margin-top: -100px;
@@ -2097,10 +2111,10 @@ height: 104.988px;
     transform: translateY(-200px);
     top: 100px;
     left: 20px;
-    width: 107.142px;
-height: 107.142px;
+    width: 77.142px;
+height: 77.142px;
 right: 160px;
-border-radius: 107.142px;
+border-radius: 77.142px;
 background: rgb(5, 255, 5);
 filter: blur(116px);
    }
@@ -2121,83 +2135,85 @@ filter: blur(116px);
     margin-top: -300px;
    }
    .you {
-    padding-top: 260px;
-    margin-left: -100px;
-  width: 70px;
-  height: 70px;
+    padding-top: 280px;
+    margin-left: -80px;
+  width: 40px;
+  height: 40px;
    }
    .im {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     padding-top: 130px;
     margin-left: -70px;
    }
    .ge {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     padding-top: 180px;
-    margin-left: -170px;
+    margin-left: -200px;
    }
    .infor {
     margin-top: -400px;
-   width: 150px;
-   height: 180px;
-   margin-left: 20px;
+   width: 100px;
+   height: 130px;
+   margin-left: 70px;
    }
    .infor-2 {
-    width: 150px;
-    height: 180px;
-    margin-left: -100px;
+    width: 100px;
+    height: 130px;
+    margin-left: -99px;
    }
    .infor img {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   padding-top: 10px;
-  margin-left: -30px;
+  margin-left: -40px;
    }
    .infor-1 img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
    }
    .infor-1 h3 {
     margin-top: -2px;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
    }
    .infor-1 p {
     margin-top: -10px;
-    margin-left: 10px;
-  font-size: 10px;
-  line-height: 15px;
+    margin-left: 6px;
+  font-size: 8px;
+  line-height: 11px;
    }
    .infor-2 img {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     padding-top: 10px;
-    margin-left: 45px;
+    margin-left: 35px;
    }
    .what img{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     position: absolute;
-    margin-top: -60px;
-    transform: translateX(-19px);
+    margin-top: -34px;
+    transform: translateX(-25px);
    }
    .cardddd h1 {
-    margin-top: -100px;
-font-size: 25px;
-margin-left: 200px;
+    margin-top: -300px;
+font-size: 20px;
+margin-left: 10px;
    }
    .cardddd p {
     width: 500px;
 font-size: 15px;
-padding-left: 90px;
+padding-left: 10px;
+margin: 0 0 20px 0;
    }
    .cards {
-    margin-left: 180px;
+    margin-left: 80px;
    }
    .popcorn {
-    margin-left: 30px;
+    margin: 0 4px 0 -20px;
 width: 160px;
 height: 200px;
    }
@@ -2212,18 +2228,18 @@ height: 80px;
 font-size: 13px;
    }
    .star h4 {
-font-size: 14px;
+font-size: 10px;
 margin-left: -26px;
-margin-top: -10px;
+margin-top: -30px;
    }
    .star p {
-font-size: 10px;
-margin-left: -120px;
+font-size: 9px;
+margin-left: -10px;
 margin-top: -20px;
    }
    .star-2 h6{
 font-size: 10px;
-margin-top: -20px;
+margin-top: -40px;
 margin-left: -20px;
    }
    .star-2 h3 {
@@ -2241,30 +2257,31 @@ margin-left: 50px;
    }
    .elementt {
     margin-top: 300px;
-    margin-left: -109px;
-    width: 620px;
-    height: 300px;
+    margin-left: -129px;
+    width: 500px;
+    height: 250px;
 
    }
    .elementt h2 {
-    margin-top: -50px;
-font-size: 25px;
+    margin-top: -70px;
+font-size: 20px;
    }
    .elementt p {
 font-size: 15px;
+line-height: 20px;
 margin-top: -30px;
    }
    .in input {
- width: 380px;
+ width: 350px;
  height: 50px;
- margin-left: -170px;
+ margin-left: -230px;
  margin-top: -30px;
  font-size: 15px;
    }
    .in button {
-width: 150px;
+width: 100px;
 height: 50px;
-margin-left: -299px;
+margin-left: -334px;
 margin-top: -18px;
    }
    .col {
@@ -2288,22 +2305,33 @@ filter: blur(184px);
    }
    .footer {
     margin-left: -30px;
+
+   }
+   .footer a {
+    display: none;
+   }
+   .footer h3 {
+    display: none;
    }
    .end img {
     margin-left: 40px;
- width: 40px;
- height: 40px;
+ width: 60px;
+ height: 60px;
    }
    .end h1 {
-  font-size:20px ;
+  font-size:25px ;
+   }
+   .end {
+    margin-top: -70px;
+    margin-left: -100px;
    }
    .end-1 p {
     margin-top: -5px;
-    margin-left: 90px;
-font-size: 15px;
+    margin-left: -60px;
+font-size: 20px;
    }
    .icon {
-margin-left: 90px;
+margin-left: -60px;
    }
    .fa-facebook-f{
     margin-top: -50px;
@@ -2336,17 +2364,17 @@ font-size: 13px;
 line-height: 20px;
    }
    hr {
-    width: 650px;
+    width: 400px;
     position: relative;
-    transform: translateX(-400px);
+    transform: translateX(-250px);
    }
    .end-44 {
-    margin-left: 140px;
+    margin-left: 180px;
    }
    .end-333 img {
     
    width: 100px;
-  margin-left: -85px;
+  margin-left: -125px;
    }
    .en-333{
 margin-top: -100px;
@@ -2381,166 +2409,167 @@ margin-top: -100px;
         margin-top: -60px;
         padding-left: -60px;
     }
-  .jk-1  {
-  
-    }
     .start {
    margin-left: -30px;
     }
     /* hey  */
-    .now {
-        display: flex;
-        background: #0CA941;
-       
-    }
+    #menuToggle {
+      display: flex;
+      margin-top: -10px;
+     
+}
 #menuToggle
 {
-  display: block;
-  position: relative;
-  top: 3px;
-  left:-440px;
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
+display: block;
+position: relative;
+top: 7px;
+left: -500px;
+margin-top: -10px;
+z-index: 1;
+
+-webkit-user-select: none;
+user-select: none;
 }
 
 #menuToggle a
 {
-  text-decoration: none;
-  color: rgb(20, 25, 26);
-  line-height: 2px;
+text-decoration: none;
+color: rgb(47, 45, 45);
+padding-top: 20px;
 transition: 0.3s;
-  cursor: pointer;
+margin: 1px 10px;
+
+
+}
+.lol{
+display: none;
 }
 
 #menuToggle a:hover
 {
-  color: rgb(255, 255, 255);
+color: rgb(200, 218, 218);
 }
 
 
 #menuToggle input
 {
-  display: block;
+display: block;
 
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;
+
+cursor: pointer;
+
+opacity: 0; /* hide this */
+z-index: 2; /* and place it over the hamburger */
+
+-webkit-touch-callout: none;
 }
 
 /*
- * Just a quick hamburger
- */
+* Just a quick hamburger
+*/
 #menuToggle span
 {
-  display: block;
-  width: 33px;
-  height: 4px;
+display: block;
+width: 33px;
+height: 4px;
 
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #16931a;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
+margin-bottom: 5px;
+position: relative;
+
+background: #3ec94c;
+border-radius: 3px;
+
+z-index: 1;
+
+transform-origin: 4px 0px;
 }
 
 #menuToggle span:first-child
 {
-  transform-origin: 0% 0%;
+transform-origin: 0% 0%;
 }
 
 #menuToggle span:nth-last-child(2)
 {
-  transform-origin: 0% 100%;
+transform-origin: 0% 100%;
 }
 
 /* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+* Transform all the slices of hamburger
+* into a crossmark.
+*/
 #menuToggle input:checked ~ span
 {
-  opacity: 1;
-  
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #fcfcfc;
+opacity: 1;
+transform: rotate(45deg) translate(-2px, -1px);
+background: #232323;
 }
 
 /*
- * But let's hide the middle one.
- */
+* But let's hide the middle one.
+*/
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+opacity: 0;
+transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
- * Ohyeah and the last one should go the other direction
- */
+* Ohyeah and the last one should go the other direction
+*/
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-45deg) translate(0, -1px);
+transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
- * Make this absolute positioned
- * at the top left of the screen
- */
+* Make this absolute positioned
+* at the top left of the screen
+*/
 #menu
 {
-  position: absolute;
-  width: 350px;
-  margin: -50px 0 0 570px;
-  padding: 55px;
-  height: 170px;
-  padding-top: -60px;
-  margin-left: -380px;
-  margin-top: -100px;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  justify-content: center;
-  flex-direction: column;
-  background: rgb(137, 205, 127);
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(120%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+position: absolute;
+width: 345px;
+margin: -180px 0 0 -590px;
+padding: 55px;
+padding-top: 160px;
+margin-left: -385px;
+height: 90px;
+display: flex;
+align-items: center;
+border-radius: 20px;
+flex-direction: column;
+justify-content: center;
+background: #9eca97;
+list-style-type: none;
+line-height: 5px;
+-webkit-font-smoothing: antialiased;
+/* to stop flickering of text in safari */
+
+transform-origin: 0% 0%;
+transform: translate(-100%, 0);
+
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+padding: 10px 0;
+font-size: 22px;
 
 }
 
 /*
- * And let's slide it in from the left
- */
+* And let's slide it in from the left
+*/
 #menuToggle input:checked ~ ul
 {
-  transform: none;
+transform: none;
 }
     .start-1 img {
         width: 35px;
@@ -2573,7 +2602,7 @@ transition: 0.3s;
     .jk-1 h1 {
         position: relative;
   font-size: 40px;
-  margin-left: -130px;
+  margin-left: -380px;
   margin-top: -300px;
   
     }
@@ -2587,11 +2616,11 @@ transition: 0.3s;
   font-size: 20px;
   margin-top: 10px;
   width: 350px;
- margin-left: -130px;
+ margin-left: -380px;
     }
     .jk-2 {
         position: relative;
-        transform: translateX(-100px);
+        transform: translateX(-350px);
         bottom: 20px;
     }
     .jk-2  button {
@@ -2611,17 +2640,15 @@ transition: 0.3s;
     .jk-99 img {
      width: 60px;
      height: 60px;
-     margin-left: 20px;
+     margin-left: -220px;
      margin-top: -10px;
     }
     .jk-101 img {
-   width: 300px;
-   height: 300px;
-   margin-top: 800px;
-   margin-right: 350px;
+   display: none;
     }
     .jkk {
-        margin: 100px 0;
+      width: 0;
+      height: 0;
     }
     .jk {
         display: flex;
@@ -2630,14 +2657,14 @@ transition: 0.3s;
     }
     .jkk img {
         position: absolute;
-        right: 380px;
+        right: 130px;
         width: 300px;
         height: 300px;
-       margin-top: 750px;
+       margin-top: 1100px;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-360px);
+        transform: translateX(-430px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -2661,14 +2688,13 @@ transition: 0.3s;
    }
    .jk-10 {
     position: relative;
-    bottom: 135px;
     width: 400px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 380px;
    }
    .card-2 {
     position: relative;
-    bottom: 180px;
+    bottom: 90px;
     width: 390px;
     height: 300px;
     margin-left: 30px;
@@ -2715,7 +2741,7 @@ transition: 0.3s;
     height: 50px;
    }
    .card-44 {
-    margin-top: -180px;
+    margin-top: -100px;
     margin-left: -170px;
    }
    .carding img { 
@@ -3087,7 +3113,7 @@ filter: blur(184px);
    }
    .footer {
     margin-top: -100px;
-    margin-left: -120px;
+    margin-left: -250px;
    }
    .end img {
     margin-left: 40px;
@@ -3140,10 +3166,10 @@ line-height: 20px;
    hr {
     width: 350px;
     position: relative;
-    transform: translateX(-300px);
+    transform: translateX(-280px);
    }
    .end-44 {
-    margin-left: 120px;
+    margin-left: 380px;
    }
    .end-333 img {
     
@@ -3160,7 +3186,7 @@ margin-top: -50px;
     margin-left: -90px;
    }
    .jimin {
-    margin-left: -880px;
+    margin-left: -830px;
     width: 20px;
     height: 20px;
    }
@@ -3193,167 +3219,167 @@ margin-top: -50px;
         margin-top: -60px;
         padding-left: -60px;
     }
-  .jk-1  {
-  
-    }
-    .start {
+      .start {
    margin-left: -30px;
     }
     /* hey  */
-    .now {
-        display: flex;
-       
-       
-    }
+    #menuToggle {
+      display: flex;
+      margin-top: -10px;
+     
+}
 #menuToggle
 {
-  display: block;
-  position: relative;
-  top: 3px;
-  left:-220px;
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
+display: block;
+position: relative;
+top: 7px;
+left: -260px;
+margin-top: -10px;
+z-index: 1;
+
+-webkit-user-select: none;
+user-select: none;
 }
 
 #menuToggle a
 {
-  text-decoration: none;
-  color: rgb(16, 32, 35);
-  line-height: 1px;
+text-decoration: none;
+color: rgb(47, 45, 45);
+padding-top: 20px;
 transition: 0.3s;
-  cursor: pointer;
-  margin-top: -8px;
+margin: 1px 10px;
+
+
+}
+.lol{
+display: none;
 }
 
 #menuToggle a:hover
 {
-  color: rgb(255, 255, 255);
+color: rgb(200, 218, 218);
 }
 
 
 #menuToggle input
 {
-  display: block;
+display: block;
 
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;
+
+cursor: pointer;
+
+opacity: 0; /* hide this */
+z-index: 2; /* and place it over the hamburger */
+
+-webkit-touch-callout: none;
 }
 
 /*
- * Just a quick hamburger
- */
+* Just a quick hamburger
+*/
 #menuToggle span
 {
-  display: block;
-  width: 33px;
-  height: 4px;
+display: block;
+width: 33px;
+height: 4px;
 
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #16931a;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
+margin-bottom: 5px;
+position: relative;
+
+background: #3ec94c;
+border-radius: 3px;
+
+z-index: 1;
+
+transform-origin: 4px 0px;
 }
 
 #menuToggle span:first-child
 {
-  transform-origin: 0% 0%;
+transform-origin: 0% 0%;
 }
 
 #menuToggle span:nth-last-child(2)
 {
-  transform-origin: 0% 100%;
+transform-origin: 0% 100%;
 }
 
 /* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+* Transform all the slices of hamburger
+* into a crossmark.
+*/
 #menuToggle input:checked ~ span
 {
-  opacity: 1;
-  
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #fcfcfc;
+opacity: 1;
+transform: rotate(45deg) translate(-2px, -1px);
+background: #232323;
 }
 
 /*
- * But let's hide the middle one.
- */
+* But let's hide the middle one.
+*/
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+opacity: 0;
+transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
- * Ohyeah and the last one should go the other direction
- */
+* Ohyeah and the last one should go the other direction
+*/
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-45deg) translate(0, -1px);
+transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
- * Make this absolute positioned
- * at the top left of the screen
- */
+* Make this absolute positioned
+* at the top left of the screen
+*/
 #menu
 {
-  position: absolute;
-  width: 300px;
-  margin: -20px 0 0 600px;
-  padding: 55px;
-  height: 90px;
-  padding-top: -60px;
-  margin-left: -300px;
-  margin-top: -70px;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  justify-content: center;
-  flex-direction: column;
-  background: rgb(137, 205, 127);
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(120%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+position: absolute;
+width: 310px;
+margin: -180px 0 0 -590px;
+padding: 55px;
+padding-top: 160px;
+margin-left: -350px;
+height: 90px;
+display: flex;
+align-items: center;
+border-radius: 20px;
+flex-direction: column;
+justify-content: center;
+background: #9eca97;
+list-style-type: none;
+line-height: 5px;
+-webkit-font-smoothing: antialiased;
+/* to stop flickering of text in safari */
+
+transform-origin: 0% 0%;
+transform: translate(-100%, 0);
+
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+padding: 10px 0;
+font-size: 22px;
 
 }
 
 /*
- * And let's slide it in from the left
- */
+* And let's slide it in from the left
+*/
 #menuToggle input:checked ~ ul
 {
-  transform: none;
+transform: none;
 }
     .start-1 img {
         width: 40px;
@@ -3364,6 +3390,7 @@ transition: 0.3s;
         margin-top: 100px;
         margin-left:350px;
     }
+   
     .header {
         margin-top: -65px;
     }
@@ -3392,8 +3419,8 @@ transition: 0.3s;
     .jk-1 h1 {
         position: relative;
   font-size: 35px;
-  margin-left: -120px;
-  margin-top: -300px;
+  margin-left: -350px;
+  margin-top: -290px;
   
     }
     .we {
@@ -3402,16 +3429,16 @@ transition: 0.3s;
         right: 500px;
     }
     .jk-1 p {
-      
+      margin: 20px 0;
   font-size: 20px;
   margin-top: 10px;
   width: 350px;
- margin-left: -120px;
+ margin-left: -350px;
     }
     .jk-2 {
         position: relative;
-        transform: translateX(-100px);
-        bottom: 20px;
+        transform: translateX(-330px);
+       top: 10px;
     }
     .jk-2  button {
     margin-left: -20px;
@@ -3430,17 +3457,16 @@ transition: 0.3s;
     .jk-99 img {
      width: 60px;
      height: 60px;
-     margin-left: 20px;
-     margin-top: -10px;
+     margin-left: -220px;
+     margin-top: 20px;
     }
     .jk-101 img {
-   width: 300px;
-   height: 300px;
-   margin-top: 800px;
-   margin-right: 320px;
+   display: none;
     }
     .jkk {
         margin: 100px 0;
+        width: 0;
+        height: 0;
     }
     .jk {
         display: flex;
@@ -3449,19 +3475,18 @@ transition: 0.3s;
     }
     .jkk img {
         position: absolute;
-        right: 340px;
-        width: 300px;
-        height: 300px;
-       margin-top: 750px;
+        right: 140px;
+        padding-top: -100px;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-140px);
+        transform: translateX(-200px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
        margin-top: -50px;
     }
+   
     .film {
         margin-left: -50px;
     }
@@ -3478,29 +3503,29 @@ transition: 0.3s;
     position: relative;
     transform: translateY(-200px);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin-left: 250px;
    }
    .jk-10 {
     position: relative;
-    bottom: 135px;
     width: 400px;
-    height: 200px;
-    margin-top: 100px;
+    height:100px;
+    margin-top: 380px;
    }
    .card-2 {
     position: relative;
-    bottom: 180px;
+    margin: 460px 0 100px 0;
     width: 350px;
     height: 300px;
-    margin-left: 30px;
+    margin-left: 20px;
 
    }
    .card-3 img {
   display: none;
    }
    .card-3 {
-   margin-top: -200px;
+   margin-top: -500px;
+   margin-left: -30px;
    }
    .card-3 h2 {
     position: absolute;
@@ -3537,8 +3562,8 @@ transition: 0.3s;
     height: 50px;
    }
    .card-44 {
-    margin-top: -180px;
-    margin-left: -170px;
+    margin-top: -200px;
+    margin-left: -180px;
    }
    .carding img { 
   display: none;
@@ -3547,6 +3572,7 @@ transition: 0.3s;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
    }
    .info-1 {
     width: 100px;
@@ -3565,8 +3591,8 @@ transition: 0.3s;
     width: 200px;
     height: 100px;
     margin: 0;
-    margin-top: -700px;
-    padding-left: 10px; 
+    margin-top: -800px;
+    margin-left: -100px;
    }
    .flower {
     position: absolute;
@@ -3574,10 +3600,10 @@ transition: 0.3s;
     margin-top: -580px;
    }
    .flowers {
-    margin-top: 100px;
+    margin-top: 107px;
     margin-left: -50px;
 width: 70px;
-height: 80px;
+height: 88px;
    }
    .flol {
 height: 200px;
@@ -3594,7 +3620,7 @@ margin-right: 140px;
    }
    .info-20 {
     position: absolute;
-    left: 100px;
+    left: 50px;
     margin-top: -310px;
     width: 260px;
     height: 10px;
@@ -3602,6 +3628,7 @@ margin-right: 140px;
    }
    .info-99 {
     padding-top: 220px;
+    margin-left: -37px;
    }
    .info-99 h1 {
     margin-top: -100px;
@@ -3650,7 +3677,7 @@ margin-left: -130px;
    }
    .flyy {
 margin-top: 500px;
-margin-left: 300px;
+margin-left: 220px;
    }
    .flyy p {
    font-size: 13px;
@@ -3661,6 +3688,7 @@ margin-left: 300px;
     width: 100px;
     height: 40px;
     font-size: 10px;
+
     padding-left: -10px;
    }
    .blue img {
@@ -3668,20 +3696,21 @@ margin-left: 300px;
     margin-left: -30px;
    }
    .color {
-    margin-top: -810px;
+    margin-top: -830px;
+    margin-right: 20px;
     
    }
    .blue {
-    margin-left: -90px;
+    margin-left: -120px;
    }
    .nextti img {
     width: 80px;
     height: 80px;
-    margin-left: -330px;
+    margin-left: -380px;
     padding-top: 110px;
    }
    .color {
-    margin-left: -300px;
+    margin-left: -350px;
     padding-top: 200px;
    }
    .orange {
@@ -3801,7 +3830,7 @@ filter: blur(116px);
    .cardddd h1 {
     margin-top: -100px;
 font-size: 25px;
-margin-left: 80px;
+margin-left: 10px;
 line-height: 30px;
    }
    .cardddd {
@@ -3810,7 +3839,7 @@ line-height: 30px;
    .cardddd p {
     width: 500px;
 font-size: 13px;
-margin-left: -120px;
+margin-left: -140px;
    }
    .cards {
     margin-left: 180px;
@@ -3855,7 +3884,7 @@ font-size: 25px;
 margin-top: 15px;
 width: 90px;
 height: 35px;
-font-size: 7px;
+font-size: 10px;
 border-radius: 10px;
 margin-left: 110px;
    }
@@ -3910,7 +3939,7 @@ filter: blur(184px);
    }
    .footer {
     margin-top: -100px;
-    margin-left: -120px;
+    margin-left: -220px;
    }
    .end img {
     margin-left: 40px;
@@ -3961,12 +3990,12 @@ font-size: 13px;
 line-height: 20px;
    }
    hr {
-    width: 320px;
+    width: 300px;
     position: relative;
-    transform: translateX(-310px);
+    transform: translateX(-270px);
    }
    .end-44 {
-    margin-left: 140px;
+    margin-left: 340px;
     margin-top: -5px;
    }
    .end-333 img {
@@ -4005,7 +4034,7 @@ margin-top: -50px;
       
     }
     .header {
-        width: 250px;
+        width:300px;
       
     }
     .start img {
@@ -4013,26 +4042,27 @@ margin-top: -50px;
         height: 100px;
         margin-top: -60px;
         padding-left: -60px;
-    }
-  .jk-1  {
-  
-    }
+    } 
     .start {
    margin-left: -30px;
     }
-    /* hey  */
-    .now {
-        display: flex;
-       
-       
+    .start-1 {
+      width: 0;
+      height: 0;
     }
+    /* hey  */
+    #menuToggle {
+        display: flex;
+        margin-top: -10px;
+       
+}
 #menuToggle
 {
   display: block;
   position: relative;
-  top: 3px;
-  left:-260px;
-  
+  top: 7px;
+  left: -410px;
+  margin-top: -10px;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -4042,16 +4072,20 @@ margin-top: -50px;
 #menuToggle a
 {
   text-decoration: none;
-  color: rgb(16, 32, 35);
-  line-height: 1px;
+  color: rgb(47, 45, 45);
+  padding-top: 20px;
 transition: 0.3s;
-  cursor: pointer;
-  margin-top: -8px;
+  margin: 1px 10px;
+
+ 
+}
+.lol{
+  display: none;
 }
 
 #menuToggle a:hover
 {
-  color: rgb(255, 255, 255);
+  color: rgb(200, 218, 218);
 }
 
 
@@ -4085,7 +4119,7 @@ transition: 0.3s;
   margin-bottom: 5px;
   position: relative;
   
-  background: #16931a;
+  background: #cdcdcd;
   border-radius: 3px;
   
   z-index: 1;
@@ -4110,9 +4144,8 @@ transition: 0.3s;
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #fcfcfc;
+  background: #232323;
 }
 
 /*
@@ -4139,25 +4172,25 @@ transition: 0.3s;
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -20px 0 0 600px;
+  width: 270px;
+  margin: -180px 0 0 -500px;
   padding: 55px;
+  padding-top: 160px;
+  margin-left: -310px;
   height: 90px;
-  padding-top: -60px;
-  margin-left: -300px;
-  margin-top: -70px;
   display: flex;
   align-items: center;
   border-radius: 20px;
-  justify-content: center;
   flex-direction: column;
-  background: rgb(137, 205, 127);
+  justify-content: center;
+  background: #9eca97;
   list-style-type: none;
+  line-height: 5px;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
-  transform: translate(120%, 0);
+  transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
@@ -4176,6 +4209,7 @@ transition: 0.3s;
 {
   transform: none;
 }
+
     .start-1 img {
         width: 30px;
         height: 30px;
@@ -4184,8 +4218,9 @@ transition: 0.3s;
     }
     .start-1 {
         margin-top: 100px;
-        margin-left:350px;
+       padding-left: -5px;
     }
+ 
     .header {
         margin-top: -65px;
     }
@@ -4196,14 +4231,14 @@ transition: 0.3s;
     .start-2 button  {
         position: relative;
         transform: translateY(14px);
-       margin-left: -650px;
+    margin-right: 10px;
        width: 80px;
        height: 30px;
        font-size: 15px;
       
 
     }
-    .start-2 a {
+    .work {
         display: none;
     }
     .jk-1 {
@@ -4213,9 +4248,19 @@ transition: 0.3s;
     .jk-1 h1 {
         position: relative;
   font-size: 35px;
-  margin-left: -120px;
+  margin-left: -360px;
   margin-top: -300px;
   
+  height: 0;
+  
+    }
+    .jk-99 {
+      width: 0;
+      height: 0;
+      margin-right:20px;
+    }
+    .jk {
+     
     }
     .we {
         position: relative;
@@ -4224,14 +4269,15 @@ transition: 0.3s;
     }
     .jk-1 p {
       
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 19px;
+  margin-top: 150px;
   width: 350px;
- margin-left: -120px;
+ margin-left: -358px;
+
     }
     .jk-2 {
         position: relative;
-        transform: translateX(-100px);
+        transform: translateX(-340px);
         bottom: 20px;
     }
     .jk-2  button {
@@ -4241,6 +4287,11 @@ transition: 0.3s;
     font-size: 10px;
     padding-left: 15px;
     }
+    .jkk {
+      width: 0;
+      height: 0;
+    }
+    .jk-1 {}
     .sp {
         margin-left: -80px;
         width: 7px;
@@ -4251,41 +4302,33 @@ transition: 0.3s;
     .jk-99 img {
      width: 60px;
      height: 60px;
-     margin-left: 20px;
+     margin-left: -210px;
      margin-top: -10px;
     }
-    .jk-101 img {
-   width: 270px;
-   height: 270px;
-   margin-top: 800px;
-   margin-right: 380px;
+    .jk-101  {
+   display: none;
     }
-    .jkk {
-        margin: 100px 0;
-    }
-    .jk {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .jkk img {
+ 
+    .jkk img{
         position: absolute;
-        right: 380px;
-        width: 250px;
-        height: 250px;
-       margin-top: 750px;
+        right: 120px;   
+        top: 90px;
+       
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-140px);
+        transform: translateX(-238px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
        margin-top: -50px;
     }
+    .image {
+      margin-left: 20px;
+    }
     .film {
       
-        margin-left: -50px;
+        margin-left: -100px;
         
     }
    .one {
@@ -4306,17 +4349,16 @@ transition: 0.3s;
    }
    .jk-10 {
     position: relative;
-    bottom: 135px;
     width: 400px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 400px;
    }
    .card-2 {
     position: relative;
-    bottom: 230px;
+    margin-top: 100px;
     width: 320px;
     height: 270px;
-    margin-left: 30px;
+    margin-left: 15px;
 
    }
    .card-3 img {
@@ -4365,7 +4407,7 @@ transition: 0.3s;
    .card-44 {
  
     margin-top: -180px;
-    margin-left: -120px;
+    margin-left: -125px;
    }
    .carding img { 
   display: none;
@@ -4473,17 +4515,22 @@ top: -10px;
 
    }
    .flyy h2 {
-font-size: 20px;
-margin-left: -130px;
+    width: 0;
+    height: 0;
+font-size: 18px;
+line-height: 20px;
+margin-left: -70px;
    }
    .flyy {
-margin-top: 500px;
-margin-left: 280px;
+position: relative;
+right: 25px;
    }
    .flyy p {
-   font-size: 13px;
-   margin-left: -130px;
+   font-size: 10px;
+   margin-left: -70px;
+   line-height: 20px;
    width: 600px;
+   padding-top: 70px;
    }
    .blue button {
     width: 100px;
@@ -4496,21 +4543,19 @@ margin-left: 280px;
     margin-top: -15px;
     margin-left: -30px;
    }
-   .color {
-    margin-top: -830px;
-    margin-left: -100px;
-   }
+   
    .blue {
-    margin-left: -90px;
+    margin-left: -30px;
    }
    .nextti img {
     width: 80px;
     height: 80px;
-    margin-left: -380px;
-    padding-top: 110px;
+   position: absolute;
+   transform: translateX(-500px);
+   bottom:-30px;
    }
    .color {
-    margin-left: -300px;
+    margin-left: -500px;
 
    }
    .orange {
@@ -4574,24 +4619,23 @@ filter: blur(116px);
     width: 70px;
     height: 70px;
     padding-top: 130px;
-    margin-left: -70px;
+    margin-left: -10px;
    }
    .ge {
     width: 70px;
     height: 70px;
     padding-top: 180px;
-    margin-left: -170px;
+    margin-left: -100px;
    }
    .infor {
     margin-top: -400px;
    width: 150px;
    height: 180px;
-   margin-left:-2px;
+   margin-left:120px;
    }
    .infor-2 {
     width: 150px;
     height: 180px;
-    margin-left: -100px;
    }
    .infor img {
   width: 60px;
@@ -4622,7 +4666,7 @@ filter: blur(116px);
    
    }
     .infor-2 {
-        margin-left: -120px;
+        margin-left: 2px;
      }
    .what img{
     width: 40px;
@@ -4639,6 +4683,8 @@ line-height: 30px;
    }
    .cardddd {
    margin-top: 330px;
+   position: relative;
+   right: 30px;
    }
    .cardddd p {
     width: 500px;
@@ -4650,7 +4696,7 @@ line-height: 20px;
     margin-left: 220px;
    }
    .popcorn {
-    margin-left: 60px;
+    margin-left: 90px;
 width: 280px;
 height: 320px;
    }
@@ -4698,7 +4744,7 @@ margin-left: 110px;
    }
    .elementt {
     margin-top: 300px;
-    margin-left: -139px;
+    margin-left: -149px;
     width: 330px;
     height: 250px;
 
@@ -4800,11 +4846,12 @@ line-height: 20px;
    hr {
     width: 290px;
     position: relative;
-    transform: translateX(-290px);
+    transform: translateX(-140px);
    }
    .end-44 {
-    margin-left:100px;
-    margin-top: -5px;
+    position: absolute;
+    transform: translateX(-240px);
+    margin-top: -80px;
    }
    .end-333 img {
     
