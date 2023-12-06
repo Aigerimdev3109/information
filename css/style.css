@@ -935,8 +935,8 @@ background: solid 1px#BF7949;;
     }
     .start img {
         width: 150px ;
+        padding-top: 40px;
         height: 150px;
-        
     }
     /* hey  */
     .now {
@@ -1090,10 +1090,10 @@ transition: 0.3s;
     .start-1 img {
         width: 35px;
         height: 35px;
-        padding: 0 -50px 0 -100px;
+    margin-top: -40px;
     }
     .start-1 {
-        margin-left: -80px;
+        margin-left: -150px;
     }
     .start-1 h2  {
      font-size: 20px;
@@ -1142,17 +1142,18 @@ transition: 0.3s;
      margin-top: -10px;
     }
     .jk-101 img {
-   width: 300px;
+        display: none;
+   /* width: 300px;
    height: 300px;
    margin-top: -60px;
-   margin-right: 120px;
+   margin-right: 120px; */
     }
     .jkk img {
         position: absolute;
-        right: 60px;
+        right: -50px;
         width: 350px;
         height: 350px;
-        
+        margin-top: 500px;
     }
     .start-3 img {
         position: relative;
@@ -1180,17 +1181,17 @@ transition: 0.3s;
    }
    .jk-10 {
     position: relative;
-    bottom: 115px;
-    width: 700px;
-    height: 200px;
+    top: 120px;
+    width: 770px;
+    height: 150px;
    }
    .card-2 {
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
     width: 600px;
     height: 150px;
-    margin-left: 100px;
-
+   left: 120px;
+    margin: 200px 0;
    }
    .card-3 img {
     width: 250px;
@@ -1211,6 +1212,7 @@ transition: 0.3s;
     margin-left: 450px;
     width: 300px;
     gap: 30px;
+    margin-top: -240px;
 
    }
    .pop p {
@@ -2401,13 +2403,12 @@ margin-top: -100px;
     }
     .header {
         width: 400px;
-      
     }
     .start img {
-        width: 100px ;
+        width: 130px ;
         height: 100px;
         margin-top: -60px;
-        padding-left: -60px;
+        padding-left: -10px;
     }
     .start {
    margin-left: -30px;
@@ -2535,10 +2536,10 @@ transform: rotate(-45deg) translate(0, -1px);
 {
 position: absolute;
 width: 345px;
-margin: -180px 0 0 -590px;
+margin: -180px 0 0 -600px;
 padding: 55px;
 padding-top: 160px;
-margin-left: -385px;
+margin-left: -395px;
 height: 90px;
 display: flex;
 align-items: center;
@@ -2572,15 +2573,18 @@ font-size: 22px;
 transform: none;
 }
     .start-1 img {
+        position: relative;
+        left: 30px;
         width: 35px;
         height: 35px;
       margin-top: 10px;
     }
     .start-1 {
-        margin-left: -80px;
+        margin-left: -180px;
     }
     .start-1 h2  {
      font-size: 20px;
+     margin-left: 30px;
     }
     .start-2 button  {
         position: relative;
@@ -2589,7 +2593,7 @@ transform: none;
        width: 80px;
        height: 25px;
        font-size: 15px;
-      
+      margin-top: 20px;
 
     }
     .start-2 a {
@@ -2775,7 +2779,7 @@ transform: none;
    .flower {
     position: absolute;
     transform: translateX(-50px);
-    margin-top: -580px;
+    margin-top: -680px;
    }
    .flowers {
     margin-top: 100px;
@@ -2805,7 +2809,7 @@ margin-right: 140px;
     
    }
    .info-99 {
-    padding-top: 220px;
+    padding-top: 330px;
    }
    .info-99 h1 {
     margin-top: -100px;
@@ -2872,7 +2876,7 @@ margin-left: 250px;
     margin-left: -30px;
    }
    .color {
-    margin-top: -810px;
+    margin-top: -710px;
     
    }
    .blue {
@@ -2885,8 +2889,8 @@ margin-left: 250px;
     padding-top: 110px;
    }
    .color {
-    margin-left: -350px;
-    padding-top: 200px;
+    margin-left: -450px;
+    
    }
    .orange {
     position: relative;
@@ -3014,7 +3018,7 @@ line-height: 30px;
    .cardddd p {
     width: 500px;
 font-size: 13px;
-margin-left: -120px;
+margin-left: -40px;
    }
    .cards {
     margin-left: 180px;
@@ -3210,7 +3214,7 @@ margin-top: -50px;
       
     }
     .header {
-        width: 200px;
+        width: 400px;
       
     }
     .start img {
@@ -3233,7 +3237,7 @@ margin-top: -50px;
 display: block;
 position: relative;
 top: 7px;
-left: -260px;
+left: -300px;
 margin-top: -10px;
 z-index: 1;
 
@@ -3388,7 +3392,7 @@ transform: none;
     }
     .start-1 {
         margin-top: 100px;
-        margin-left:350px;
+        margin-left:300px;
     }
    
     .header {
@@ -3401,8 +3405,8 @@ transform: none;
     }
     .start-2 button  {
         position: relative;
-        transform: translateY(14px);
-       margin-left: -540px;
+        transform: translateY(30px);
+       margin-left: -500px;
        width: 80px;
        height: 30px;
        font-size: 15px;
@@ -3480,7 +3484,7 @@ transform: none;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-200px);
+        transform: translateX(-250px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -3542,11 +3546,12 @@ transform: none;
    }
    .card-4 {
     position: relative;
-    margin-left: 450px;
+    margin-left: 430px;
     width: 300px;
-    gap: 30px;
+    gap: 20px;
 
    }
+
    .pop p {
     padding-top: 2px;
     font-size: 20px;
@@ -3562,8 +3567,8 @@ transform: none;
     height: 50px;
    }
    .card-44 {
-    margin-top: -200px;
-    margin-left: -180px;
+    margin-top: -250px;
+    margin-left: -170px;
    }
    .carding img { 
   display: none;
@@ -3597,7 +3602,7 @@ transform: none;
    .flower {
     position: absolute;
     transform: translateX(-50px);
-    margin-top: -580px;
+    margin-top: -680px;
    }
    .flowers {
     margin-top: 107px;
@@ -3627,7 +3632,7 @@ margin-right: 140px;
     
    }
    .info-99 {
-    padding-top: 220px;
+    padding-top: 300px;
     margin-left: -37px;
    }
    .info-99 h1 {
@@ -3697,7 +3702,7 @@ margin-left: 220px;
    }
    .color {
     margin-top: -830px;
-    margin-right: 20px;
+    margin-right: 140px;
     
    }
    .blue {
@@ -3709,10 +3714,10 @@ margin-left: 220px;
     margin-left: -380px;
     padding-top: 110px;
    }
-   .color {
+   /* .color {
     margin-left: -350px;
     padding-top: 200px;
-   }
+   } */
    .orange {
     position: relative;
     left: 200px;
@@ -3834,12 +3839,12 @@ margin-left: 10px;
 line-height: 30px;
    }
    .cardddd {
-   margin-top: 330px;
+   margin-top: 430px;
    }
    .cardddd p {
     width: 500px;
 font-size: 13px;
-margin-left: -140px;
+margin-left: -60px;
    }
    .cards {
     margin-left: 180px;
@@ -4044,7 +4049,7 @@ margin-top: -50px;
         padding-left: -60px;
     } 
     .start {
-   margin-left: -30px;
+   margin-left: -90px;
     }
     .start-1 {
       width: 0;
@@ -4061,7 +4066,7 @@ margin-top: -50px;
   display: block;
   position: relative;
   top: 7px;
-  left: -410px;
+  left: -320px;
   margin-top: -10px;
   z-index: 1;
   
@@ -4172,11 +4177,11 @@ transition: 0.3s;
 #menu
 {
   position: absolute;
-  width: 270px;
-  margin: -180px 0 0 -500px;
+  width: 280px;
+  margin: -190px 0 0 -500px;
   padding: 55px;
   padding-top: 160px;
-  margin-left: -310px;
+  margin-left: -290px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -4214,19 +4219,18 @@ transition: 0.3s;
         width: 30px;
         height: 30px;
       margin-top: -5px;
-      margin-left: -10px;
+      margin-left: -100px;
     }
     .start-1 {
         margin-top: 100px;
        padding-left: -5px;
     }
  
-    .header {
-        margin-top: -65px;
-    }
+    
     .start-1 h2  {
-     font-size: 20px;
-     margin: 0 40px 0 10px;
+   
+        font-size: 20px;
+     margin: 0px 40px 0 10px;
     }
     .start-2 button  {
         position: relative;
@@ -4235,7 +4239,7 @@ transition: 0.3s;
        width: 80px;
        height: 30px;
        font-size: 15px;
-      
+       margin-top: 20px;
 
     }
     .work {
@@ -4249,7 +4253,7 @@ transition: 0.3s;
         position: relative;
   font-size: 35px;
   margin-left: -360px;
-  margin-top: -300px;
+  margin-top: -270px;
   
   height: 0;
   
@@ -4259,9 +4263,6 @@ transition: 0.3s;
       height: 0;
       margin-right:20px;
     }
-    .jk {
-     
-    }
     .we {
         position: relative;
         padding-top: 20px;
@@ -4270,7 +4271,7 @@ transition: 0.3s;
     .jk-1 p {
       
   font-size: 19px;
-  margin-top: 150px;
+  margin-top: 100px;
   width: 350px;
  margin-left: -358px;
 
@@ -4291,7 +4292,6 @@ transition: 0.3s;
       width: 0;
       height: 0;
     }
-    .jk-1 {}
     .sp {
         margin-left: -80px;
         width: 7px;
@@ -4317,7 +4317,7 @@ transition: 0.3s;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-238px);
+        transform: translateX(-228px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -4389,9 +4389,9 @@ transition: 0.3s;
 
    }
    .pop p {
-    
-    font-size: 15px;
-    margin-left: 7px;
+    margin-top: -2px;
+    font-size: 18px;
+    margin-left: -5px;
    }
    .pop h5 {
     margin-top: -20px;
@@ -4399,14 +4399,16 @@ transition: 0.3s;
     line-height: 20px;
     line-height: 17px;
    }
+   
    .pop-1 img {
     margin-bottom: 20px;
     width:30px;
     height: 30px;
+    margin-left: -10px;
    }
    .card-44 {
  
-    margin-top: -180px;
+    margin-top: -220px;
     margin-left: -125px;
    }
    .carding img { 
@@ -4682,14 +4684,14 @@ margin-left: 80px;
 line-height: 30px;
    }
    .cardddd {
-   margin-top: 330px;
+   margin-top: 370px;
    position: relative;
    right: 30px;
    }
    .cardddd p {
     width: 500px;
 font-size: 10px;
-margin-left: -140px;
+margin-left: -50px;
 line-height: 20px;
    }
    .cards {
