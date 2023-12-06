@@ -4046,18 +4046,35 @@ margin-top: -50px;
         width:300px;
       
     } */
+    /* HTML,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;    } */
     .start img {
         width: 100px ;
         height: 100px;
         margin-top: -60px;
         padding-left: -60px;
     } 
+    
     .start {
    margin-left: -80px;
     }
     .start-1 {
       width: 0;
       height: 0;
+    }
+    /* #hero {
+        word-wrap: break-word;
+        width: 330px;    } */
+    .header {
+        word-wrap: break-word;
+        width: 330px;
+    }
+    .week {
+
     }
     /* hey  */
     #menuToggle {
@@ -4070,7 +4087,7 @@ margin-top: -50px;
   display: block;
   position: relative;
   top: 7px;
-  left: -300px;
+  left: 110px;
   margin-top: 27px;
   z-index: 1;
   
@@ -4218,6 +4235,9 @@ transition: 0.3s;
 {
   transform: none;
 }
+.menu {
+    display: none;
+}
 
     .start-1 img {
         width: 40px;
@@ -4239,7 +4259,7 @@ transition: 0.3s;
     .start-2 button  {
         position: relative;
         transform: translateY(14px);
-    margin-right: -90px;
+    margin-right: -620px;
        width: 80px;
        height: 30px;
        font-size: 15px;
@@ -4249,14 +4269,18 @@ transition: 0.3s;
     .work {
         display: none;
     }
+    .start-3 {
+        margin-left: 90px;
+    }
     .jk-1 {
+        width: 300px;
       margin-top: 50px;
-      margin-left: 300px;
+      margin-left:-160px;
     }
     .jk-1 h1 {
         position: relative;
   font-size: 35px;
-  margin-left: -360px;
+  margin-left: -30px;
   margin-top: -270px;
   
   height: 0;
@@ -4277,8 +4301,8 @@ transition: 0.3s;
   font-size: 19px;
   margin-top: 100px;
   width: 350px;
- margin-left: -358px;
-
+ margin-left: -30px;
+ word-wrap: break-word;
     }
     .jk-2 {
         position: relative;
@@ -4315,13 +4339,13 @@ transition: 0.3s;
  
     .jkk img{
         position: absolute;
-        right: 120px;   
-        top: 90px;
+        right: 30px;   
+        top: 10px;
        
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-278px);
+        transform: translateX(-23px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -4353,13 +4377,13 @@ transition: 0.3s;
    }
    .jk-10 {
     position: relative;
-    width: 400px;
+    width: 330px;
     height: 300px;
-    margin-top: 200px;
+    margin-top: 70px;
    }
    .card-2 {
     position: relative;
-    margin-top: 100px;
+    margin-top: 200px;
     width: 320px;
     height: 270px;
     margin-left: -90px;
@@ -4386,10 +4410,10 @@ transition: 0.3s;
    }
    .card-4 {
     position: relative;
-    margin-left: 350px;
+    margin-left: 40px;
     width: 100px;
     gap: 30px;
-   
+    word-wrap: break-word;
 
    }
    .pop p {
@@ -4413,7 +4437,7 @@ transition: 0.3s;
    .card-44 {
  
     margin-top: -220px;
-    margin-left: -125px;
+    margin-left: 40px;
    }
    .carding img { 
   display: none;
@@ -4523,21 +4547,36 @@ top: -10px;
    .flyy h2 {
     width: 0;
     height: 0;
-font-size: 25px;
+font-size: 20px;
 line-height: 20px;
-margin-left: -70px;
+margin-left: -280px;
 margin-top: 60px;
    }
    .flyy {
 position: relative;
 right: 35px;
    }
+   #cardddd {
+word-wrap: break-word;
+width: 300px;
+   }
+   #element {
+    word-wrap: break-word;
+    width: 330px;
+   }
    .flyy p {
-   font-size: 15px;
-   margin-left: -70px;
+   font-size: 10px;
+   margin-left: -282px;
    line-height: 20px;
-   width: 600px;
+   width: 300px;
+
    padding-top: 70px;
+
+   flex-wrap: wrap;
+   }
+   #footer {
+    margin-left:-20px;
+    word-wrap: break-word;
    }
    .blue button {
     width: 100px;
@@ -4552,96 +4591,61 @@ right: 35px;
    }
    
    .blue {
-    margin-left: -30px;
+    margin-left: -250px;
    }
    .nextti img {
     width: 80px;
     height: 80px;
    position: absolute;
-   transform: translateX(-500px);
+   transform: translateX(-700px);
    bottom:-30px;
    }
    .color {
     margin-left: -640px;
    }
    .orange {
-    position: relative;
-    left: 200px;
-   padding-top: 160px;
-    transform: translateY(-100px);
-    border-radius: 94.988px;
-background: rgba(255, 233, 120, 0.932);
-filter: blur(125px);
-width: 94.988px;
-height: 94.988px;
+    display: none;
    }
    .orange-2 {
-    position: relative;
-    margin-top: -200px;
-    left: 100px;
-    transform: translateY(-100px);
-    border-radius: 104.988px;
-background: rgba(255, 233, 120, 0.916);
-filter: blur(125px);
-width: 104.988px;
-height: 104.988px;
+display: none;
    }
    .green {
-    margin-top: -100px;
-    position: relative;
-    transform: translateY(-200px);
-    top: 100px;
-    left: 20px;
-    width: 107.142px;
-height: 107.142px;
-right: 160px;
-border-radius: 107.142px;
-background: rgb(5, 255, 5);
-filter: blur(116px);
+  display: none;
    }
    .green-1 {
-    
-    position: relative;
-    top: -400px;
-    left: 80px;
-    margin-left: 100px;
-    width: 97.142px;
-height: 97.142px;
-right: 160px;
-border-radius: 97.142px;
-background: rgb(3, 255, 3);
-filter: blur(116px);
+    display: none;
    }
    .sky {
     margin-top: -500px;
    }
    .you {
-    padding-top: 260px;
-    margin-left: -100px;
+    padding-top: 450px;
+    margin-left: -70px;
   width: 70px;
   height: 70px;
    }
    .im {
     width: 70px;
     height: 70px;
-    padding-top: 130px;
-    margin-left: -10px;
+    padding-top: 500px;
+    margin-left: 20px;
    }
    .ge {
     width: 70px;
     height: 70px;
-    padding-top: 180px;
+    padding-top: 450px;
     margin-left: -100px;
    }
    .infor {
-    margin-top: -400px;
+    margin-top: -230px;
    width: 150px;
    height: 180px;
-   margin-left:120px;
+   margin-left: 200px;
    }
    .infor-2 {
     width: 150px;
     height: 180px;
+    margin-top: 10px;
    }
    .infor img {
   width: 60px;
@@ -4690,15 +4694,17 @@ line-height: 30px;
    .cardddd {
    margin-top: 370px;
    position: relative;
-   right: 30px;
+   right: -20px;
    }
    .cardddd p {
-    width: 500px;
+    width: 300px;
 font-size: 10px;
-margin-left: -50px;
-line-height: 20px;
+margin-left: 20px;
+line-height: 15px;
+word-wrap: break-word;
    }
    .cards {
+    word-wrap: break-word;
     margin-left: 220px;
    }
    .popcorn {
@@ -4734,6 +4740,10 @@ font-size: 14px;
 margin-top: -40px;
 margin-left: 5px;
    }
+   .start-3 {
+    word-wrap: break-word;
+    width: 0;
+   }
    .star-2 h3 {
     margin-left: 5px;
     margin-top: -10px;
@@ -4750,19 +4760,22 @@ margin-left: 110px;
    }
    .elementt {
     margin-top: 300px;
-    margin-left: -149px;
+    margin-left: -139px;
     width: 330px;
     height: 250px;
-
+  word-wrap: break-word;
    }
    .elementt h2 {
     margin-top: -50px;
 font-size: 15px;
    }
    .elementt p {
+    margin-left: 10px;
 font-size: 10px;
 margin-top: -30px;
-line-height: 20px;
+line-height: 15px;
+word-wrap: break-word;
+width: 300px;
    }
    .in input {
  width: 250px;
@@ -4799,7 +4812,7 @@ filter: blur(184px);
    }
    .footer {
     margin-top: -100px;
-    margin-left: -120px;
+    margin-left: -80px;
    }
    .end img {
     margin-left: 40px;
@@ -4813,7 +4826,7 @@ filter: blur(184px);
     margin-top: -5px;
     margin-left: 90px;
 font-size: 15px;
-
+word-wrap: break-word;
    }
    .icon {
 margin-left: 90px;
@@ -4850,19 +4863,20 @@ font-size: 13px;
 line-height: 20px;
    }
    hr {
-    width: 290px;
+    width: 340px;
     position: relative;
-    transform: translateX(-140px);
+    margin-top: -10px;
+    transform: translateX(-60px);
    }
    .end-44 {
     position: absolute;
-    transform: translateX(-240px);
-    margin-top: -80px;
+    transform: translateX(240px);
+   margin: 240px 0 0 0;
    }
    .end-333 img {
     
    width: 55px;
-  margin-left: -117px;
+  margin-left: -107px;
    }
    .en-333{
 margin-top: -50px;
@@ -4870,15 +4884,15 @@ margin-top: -50px;
    .enn-222{
     margin-top: -50px;
    }
-   .money {
-    margin-top: 100px;
-    margin-left: -90px;
+   .money img {
+    margin-top: 250px;
+    width: 0;
+    height: 0;
    }
-   .jimin {
-   
-    margin-left: -965px;
-    width: 10px;
-    height: 10px;
+   .jimin img{
+    width: 0;
+    height: 0;
+   margin-left: -996px;
    }
 
     
