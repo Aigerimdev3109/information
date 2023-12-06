@@ -4042,10 +4042,10 @@ margin-top: -50px;
         width: 90%;
       
     }
-    .header {
+    /* .header {
         width:300px;
       
-    }
+    } */
     .start img {
         width: 100px ;
         height: 100px;
@@ -4053,7 +4053,7 @@ margin-top: -50px;
         padding-left: -60px;
     } 
     .start {
-   margin-left: -90px;
+   margin-left: -80px;
     }
     .start-1 {
       width: 0;
@@ -4070,8 +4070,8 @@ margin-top: -50px;
   display: block;
   position: relative;
   top: 7px;
-  left: -320px;
-  margin-top: 530px;
+  left: -300px;
+  margin-top: 27px;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -4128,7 +4128,7 @@ transition: 0.3s;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: rgb(26, 140, 26);
   border-radius: 3px;
   
   z-index: 1;
@@ -4182,10 +4182,10 @@ transition: 0.3s;
 {
   position: absolute;
   width: 280px;
-  margin: -190px 0 0 -500px;
+  margin: -200px 0 0 -500px;
   padding: 55px;
   padding-top: 160px;
-  margin-left: -290px;
+  margin-left: -330px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -4220,26 +4220,26 @@ transition: 0.3s;
 }
 
     .start-1 img {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
       margin-top: -5px;
-      margin-left: -100px;
+      position: relative;
+      transform: translateX(75px);
     }
     .start-1 {
         margin-top: 100px;
-       padding-left: -5px;
+        margin-left: 40px;
     }
  
     
     .start-1 h2  {
-   
+       margin-left: 120px;
         font-size: 20px;
-     margin: 0px 40px 0 10px;
     }
     .start-2 button  {
         position: relative;
         transform: translateY(14px);
-    margin-right: 10px;
+    margin-right: -90px;
        width: 80px;
        height: 30px;
        font-size: 15px;
@@ -4321,7 +4321,7 @@ transition: 0.3s;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-228px);
+        transform: translateX(-278px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
@@ -4354,15 +4354,15 @@ transition: 0.3s;
    .jk-10 {
     position: relative;
     width: 400px;
-    height: 200px;
-    margin-top: 400px;
+    height: 300px;
+    margin-top: 200px;
    }
    .card-2 {
     position: relative;
     margin-top: 100px;
     width: 320px;
     height: 270px;
-    margin-left: 15px;
+    margin-left: -90px;
 
    }
    .card-3 img {
@@ -4386,7 +4386,7 @@ transition: 0.3s;
    }
    .card-4 {
     position: relative;
-    margin-left: 340px;
+    margin-left: 350px;
     width: 100px;
     gap: 30px;
    
@@ -4523,16 +4523,17 @@ top: -10px;
    .flyy h2 {
     width: 0;
     height: 0;
-font-size: 18px;
+font-size: 25px;
 line-height: 20px;
 margin-left: -70px;
+margin-top: 60px;
    }
    .flyy {
 position: relative;
-right: 25px;
+right: 35px;
    }
    .flyy p {
-   font-size: 10px;
+   font-size: 15px;
    margin-left: -70px;
    line-height: 20px;
    width: 600px;
@@ -4561,8 +4562,7 @@ right: 25px;
    bottom:-30px;
    }
    .color {
-    margin-left: -500px;
-
+    margin-left: -640px;
    }
    .orange {
     position: relative;
@@ -4682,7 +4682,7 @@ filter: blur(116px);
     transform: translateX(-19px);
    }
    .cardddd h1 {
-    margin-top: -90px;
+    margin-top: -220px;
 font-size: 20px;
 margin-left: 80px;
 line-height: 30px;
@@ -4722,16 +4722,16 @@ font-size: 20px;
    .star h4 {
 font-size: 20px;
 margin-left: 2px;
-margin-top: -5px;
+margin-top: -16px;
    }
    .star p {
 font-size: 15px;
-margin-left: -120px;
-margin-top: -10px;
+margin-left: -40px;
+margin-top: 1px;
    }
    .star-2 h6{
 font-size: 14px;
-margin-top: -20px;
+margin-top: -40px;
 margin-left: 5px;
    }
    .star-2 h3 {
