@@ -342,8 +342,9 @@ background: #282444;
 }
 .info-99 {
   position: relative;
-  transform: translateX(-376px);
+  transform: translateX(776px);
  width: 500px;
+ margin-top: -200px;
 }
 .info-99 h1 {
     color: #374A3D;
@@ -877,11 +878,8 @@ transition: 0.5s;
 color: rgb(215, 173, 215);
 
 }
-.mo {
-
-}
 hr {
-   margin: 50px 0 250px 190px;
+   margin: -330px 0 250px 190px;
     width: 1166.384px;
 height: 0px;
 background: solid 1px#BF7949;;
@@ -890,7 +888,7 @@ background: solid 1px#BF7949;;
     position: relative;
     width: 400px;
     height: 400px;
-   margin-top: -670px;
+   margin-top: -600px;
     margin-left:1130px;
     transform: translateY(5px);
 }
@@ -900,11 +898,13 @@ background: solid 1px#BF7949;;
     width: 400px;
     height:400px;
     transform: translateY(20px);
-  margin-top: -480px;
+  margin-top: -500px;
+  padding-top: 200px;
   margin-right: -1200px;
 }
 .end-333 {
-    margin-top: -255px;
+    margin-top: 35px;
+    padding-top: -100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2400,22 +2400,28 @@ margin-top: -100px;
 
   
 }
-@media  (max-width: 452px) {
+
+@media (max-width: 452px) {
     .container {
         width: 90%;
       
     }
-    /* .header {
+    .header {
         width: 400px;
-    } */
-    .start img {
-        width: 150px ;
-        height: 100px;
-        margin-top: -130px;
-        padding-left: -90px;
+        word-wrap: break-word;
+        width: 330px;
     }
-    .start {
+    .start img {
+        width: 100px ;
+        height: 100px;
+        margin-top: -60px;
+        padding-left: -60px;
+    }
+      .start {
    margin-left: -30px;
+    }
+    .col {
+        display: none;
     }
     /* hey  */
     #menuToggle {
@@ -2428,8 +2434,8 @@ margin-top: -100px;
 display: block;
 position: relative;
 top: 7px;
-left: -530px;
-margin-top: -20px;
+left: 290px;
+margin-top: 35px;
 z-index: 1;
 
 -webkit-user-select: none;
@@ -2539,8 +2545,8 @@ transform: rotate(-45deg) translate(0, -1px);
 #menu
 {
 position: absolute;
-width: 345px;
-margin: -180px 0 0 -603px;
+width: 370px;
+margin: -220px 0 0 -500px;
 padding: 55px;
 padding-top: 160px;
 margin-left: -400px;
@@ -2577,41 +2583,53 @@ font-size: 22px;
 transform: none;
 }
     .start-1 img {
-        position: relative;
-        left: 30px;
-        width: 35px;
-        height: 35px;
-      margin-top: -40px;
+        width: 40px;
+        height: 40px;
+      margin-top: 10px;
+    padding-left: 80px;
     }
     .start-1 {
-        margin-left: -170px;
+        margin-top: 100px;
+        margin-left:260px;
+    }
+   
+    .header {
+        margin-top: -65px;
+    }
+    .start-3 {
+        word-wrap: break-word;
+        margin-left: -300px;
     }
     .start-1 h2  {
+       margin-top: 40px;
+        padding-top: 5px;
      font-size: 20px;
-     margin-left: 50px;
+     margin-left: -30px;
     }
     .start-2 button  {
         position: relative;
-        transform: translateY(-18px);
-       margin-left: -450px;
+        transform: translateY(30px);
+       margin-left: 340px;
        width: 80px;
        height: 30px;
        font-size: 15px;
-      margin-top: 20px;
+      
 
     }
     .start-2 a {
         display: none;
     }
     .jk-1 {
+        word-wrap: break-word;
       margin-top: 50px;
-      margin-left: 300px;
+      margin: 0 0 0 -270px;
+
     }
     .jk-1 h1 {
         position: relative;
-  font-size: 40px;
-  margin-left: -380px;
-  margin-top: -300px;
+  font-size: 35px;
+  margin-left: 100px;
+  margin-top: -220px;
   
     }
     .we {
@@ -2620,26 +2638,26 @@ transform: none;
         right: 500px;
     }
     .jk-1 p {
-      
+      margin: 20px 0;
   font-size: 20px;
   margin-top: 10px;
   width: 350px;
- margin-left: -380px;
+ margin-left: 100px;
     }
     .jk-2 {
         position: relative;
-        transform: translateX(-350px);
-        bottom: 20px;
+        transform: translateX(-330px);
+       top: 10px;
     }
     .jk-2  button {
-    margin-left: -30px;
+    margin-left: -20px;
     width: 100px;
     height: 40px;
     font-size: 10px;
     padding-left: 15px;
     }
     .sp {
-        margin-left: -90px;
+        margin-left: -80px;
         width: 7px;
         height: 5px;
         font-size: 5px;
@@ -2649,14 +2667,15 @@ transform: none;
      width: 60px;
      height: 60px;
      margin-left: -220px;
-     margin-top: -10px;
+     margin-top: 20px;
     }
     .jk-101 img {
    display: none;
     }
     .jkk {
-      width: 0;
-      height: 0;
+        margin: 10px 0;
+        width: 0;
+        height: 0;
     }
     .jk {
         display: flex;
@@ -2665,18 +2684,20 @@ transform: none;
     }
     .jkk img {
         position: absolute;
-        right: 130px;
-        width: 300px;
-        height: 300px;
-       margin-top: 1100px;
+        right: 40px;
+        top: 700px;
     }
     .start-3 img {
         position: relative;
-        transform: translateX(-500px);
+        transform: translateX(-250px);
         width: 300px;
         height: 300px;
        margin-bottom: 670px;
-       
+       margin-top: -50px;
+    }
+   
+    .film {
+        margin-left: -50px;
     }
    .one {
     width: 300px;
@@ -2684,35 +2705,36 @@ transform: none;
     padding-top: 200px;
    }
    .start img {
-    margin-left: 40px;
-    
+    margin-left: -200px;
+    /* display: none; */
    }
    .lol {
     position: relative;
     transform: translateY(-200px);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin-left: 250px;
    }
    .jk-10 {
     position: relative;
     width: 400px;
-    height: 200px;
-    margin-top: 380px;
+    height:300px;
+    margin-top: 150px;
    }
    .card-2 {
     position: relative;
-    bottom: 120px;
-    width: 390px;
+    margin: 460px 0 100px 0;
+    width: 350px;
     height: 300px;
-    margin-left: -100px;
+    margin-left: -96px;
 
    }
    .card-3 img {
   display: none;
    }
    .card-3 {
-   margin-top: -200px;
+   margin-top: -560px;
+   margin-left: -30px;
    }
    .card-3 h2 {
     position: absolute;
@@ -2728,12 +2750,15 @@ transform: none;
     width: 300px;
    }
    .card-4 {
+    word-wrap: break-word;
+    width: 380px;
     position: relative;
-    margin-left: 430px;
+    margin-left: -430px;
     width: 300px;
-    gap: 30px;
-margin-top: -270px;
+    gap: 20px;
+    margin-top: -30px;
    }
+
    .pop p {
     padding-top: 2px;
     font-size: 20px;
@@ -2749,7 +2774,7 @@ margin-top: -270px;
     height: 50px;
    }
    .card-44 {
-    margin-top: -100px;
+    margin-top: -250px;
     margin-left: -170px;
    }
    .carding img { 
@@ -2759,37 +2784,80 @@ margin-top: -270px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+   }
+   #info {
+    word-wrap: break-word;
+    width: 380px;
+    margin-top: -300px;
    }
    .info-1 {
     width: 100px;
     height: 100px;
+    margin-left: -900px;
    }
    .info-2 {
     width: 100px;
     height: 100px;
+    margin-left: -100px;
    }
    .boo  {
     width: 300px;
     height: 300px;
-    margin-left: -60px;
+    margin-left: 420px;
    }
    .info-4 {
+    word-wrap: break-word;
+  margin-left: 10px;
+   }
+   .info-4 img {
     width: 200px;
-    height: 100px;
-    margin: 0;
-    margin-top: -700px;
-    margin-left: -180px;
+    height: 200px;position: absolute;
+    left: 100px;
+    margin-top: -530px;
+    
+   } 
+   .info {
+    word-wrap: break-word;
+    width: 370px;
+    margin-left: -200px;
    }
    .flower {
-    position: absolute;
-    transform: translateX(-50px);
+    width: 360px;
+    margin-left: -600px;
     margin-top: -680px;
    }
+   .flol {
+    margin-left: 1050px;
+   }
+   .people {
+    margin-left: 1150px;
+    margin-top: -200px;
+    position: absolute;
+    transform: translateY(784px);
+   }
+   .film {
+    display: none;
+   }
+   .floooo {
+    word-wrap: break-word;
+    width: 380px;
+   }
+   .flo {
+    margin-left: 1220px;
+    position: relative;
+    transform: translateY(-240px);
+   }
+   .how {
+    margin-left: 1270px;
+    position: relative;
+    transform: translateY(-418px);
+   }
    .flowers {
-    margin-top: 100px;
-    margin-left: -50px;
+    margin-top: 107px;
 width: 70px;
-height: 80px;
+height: 88px;
+padding-left: 40px;
    }
    .flol {
 height: 200px;
@@ -2804,27 +2872,38 @@ margin-right: 140px;
     width: 90px; ;
     
    }
+   #sky {
+    word-wrap: break-word;
+    width: 380px;
+   }
    .info-20 {
     position: absolute;
-    left: 80px;
+    left: 60px;
     margin-top: -315px;
     width: 260px;
     height: 10px;
     
    }
    .info-99 {
-    padding-top: 330px;
+    margin-top: -140px;
+    word-wrap: break-word;
+    width: 380px;
+    margin-left: -850px;
    }
    .info-99 h1 {
-    margin-top: -100px;
-   margin-left: -50px;
-   font-size: 20px;
-   line-height: 30px;
+   margin-top: -200px;
+   margin-left: 140px;
+   width: 300px;
+   font-size: 30px;
+   margin-top: -300px;
+   margin: -60px 0 90px 130px;
    }
    .info-99 p {
-    margin-top: -50px;
-   font-size: 13px;
-   margin-left: -50px;
+    word-wrap: break-word;
+   font-size: 20px;
+   width: 300px;
+   margin-left: 130px;
+   line-height: 25px;
    }
    .sky {
     display: flex;
@@ -2858,21 +2937,24 @@ top: -10px;
    }
    .flyy h2 {
 font-size: 20px;
-margin-left: -130px;
+margin-left: 20px;
    }
    .flyy {
-margin-top: 500px;
-margin-left: 250px;
+    word-wrap: break-word;
+    width: 360px;
+margin-top: 300px;
+margin-left: -110px;
    }
    .flyy p {
    font-size: 13px;
-   margin-left: -130px;
-   width: 600px;
+   margin-left: 20px;
+   width: 340px;
    }
    .blue button {
     width: 100px;
     height: 40px;
     font-size: 10px;
+
     padding-left: -10px;
    }
    .blue img {
@@ -2880,22 +2962,29 @@ margin-left: 250px;
     margin-left: -30px;
    }
    .color {
-    margin-top: -710px;
+    margin-top: -630px;
+    margin-right: 10px;
     
    }
    .blue {
-    margin-left: -90px;
+    margin-left: 20px;
+    width: 340px;
+
+   }
+   #cardddd {
+    word-wrap: break-word;
+    width: 380px;
    }
    .nextti img {
     width: 80px;
     height: 80px;
-    margin-left: -330px;
+    margin-left: -380px;
     padding-top: 110px;
    }
-   .color {
-    margin-left: -450px;
-    
-   }
+   /* .color {
+    margin-left: -350px;
+    padding-top: 200px;
+   } */
    .orange {
     position: relative;
     left: 200px;
@@ -3011,73 +3100,84 @@ filter: blur(116px);
     transform: translateX(-19px);
    }
    .cardddd h1 {
-    margin-top: -100px;
+    margin-top: -300px;
 font-size: 25px;
-margin-left: 20px;
-line-height: 30px;
+margin-left: 40px;
+width: 340px;
    }
    .cardddd {
-   margin-top: 330px;
+    word-wrap: break-word;
+    width: 360px;
+   margin-top: 430px;
    }
    .cardddd p {
-    width: 500px;
+    width: 340px;
 font-size: 13px;
-margin-left: -40px;
+margin-left: 40px;
+line-height: 20px;
    }
-  
+   .cards {
+    margin-left: 180px;
+   }
    .popcorn {
-    margin-left: 30px;
-width: 200px;
-height: 250px;
+    margin-left: 100px;
+width: 280px;
+height: 320px;
    }
    .popcorn img {
     margin-top: -10px;
-    margin-left: -55px;
-width: 100px;
-height: 100px;
+    margin-left: -20px;
+width: 130px;
+height: 130px;
    }
    .popcorn h2 {
     margin-top: -10px;
-font-size: 16px;
+font-size: 20px;
    }
    .star h4 {
-font-size: 14px;
-margin-left: -15px;
-margin-top: -27px;
+font-size: 20px;
+margin-left: 2px;
+margin-top: -5px;
    }
    .star p {
-font-size: 10px;
-margin-left: -20px;
-margin-top: -10px;
+font-size: 15px;
+margin-left: -70px;
+margin-top: 10px;
    }
    .star-2 h6{
-font-size: 10px;
-margin-top: -40px;
-margin-left: -15px;
+font-size: 14px;
+margin-top: -20px;
+margin-left: 5px;
    }
    .star-2 h3 {
-    margin-left: -15px;
+    margin-left: 5px;
     margin-top: -10px;
-font-size: 18px;
+font-size: 25px;
    }
+
    .bll button {
 margin-top: 15px;
-width: 60px;
-height: 25px;
-font-size: 7px;
+width: 90px;
+height: 35px;
+font-size: 10px;
 border-radius: 10px;
-margin-left: 75px;
+margin-left: 110px;
    }
    .elementt {
     margin-top: 300px;
-    margin-left: -139px;
-    width: 380px;
+    margin-left: -119px;
+    width: 340px;
     height: 250px;
 
    }
+   #element {
+    word-wrap: break-word;
+    width: 360px;
+    margin-top: 140px;
+   }
    .elementt h2 {
     margin-top: -50px;
-font-size: 18px;
+font-size: 20px;
    }
    .elementt p {
 font-size: 10px;
@@ -3087,14 +3187,14 @@ line-height: 20px;
    .in input {
  width: 250px;
  height: 30px;
- margin-left: -230px;
+ margin-left: -250px;
  margin-top: -120px;
  font-size: 12px;
    }
    .in button {
 width: 90px;
 height: 30px;
-margin-left: -429px;
+margin-left: -449px;
 margin-top: -7px;
 font-size: 12px;
    }
@@ -3118,25 +3218,27 @@ background: rgba(226, 191, 16, 0.845);
 filter: blur(184px);
    }
    .footer {
-    margin-top: -100px;
-    margin-left: -250px;
+    margin-top: -70px;
+    margin-left: -90px;
    }
    .end img {
-    margin-left: 40px;
+    margin-left: 80px;
  width: 30px;
  height: 30px;
    }
    .end h1 {
   font-size:20px ;
+  
    }
    .end-1 p {
-    margin-top: -5px;
-    margin-left: 90px;
+    margin-top: 5px;
+    margin-left: -10px;
 font-size: 15px;
 
    }
    .icon {
-margin-left: 90px;
+    margin-top: 10px;
+margin-left: -10px;
    }
    .fa-facebook-f{
     margin-top: -50px;
@@ -3170,17 +3272,20 @@ font-size: 13px;
 line-height: 20px;
    }
    hr {
-    width: 350px;
+    width: 360px;
     position: relative;
-    transform: translateX(-280px);
+    transform: translateX(-50px);
+    margin-top: -146px;
+    padding-top: -700px;
    }
    .end-44 {
-    margin-left: 380px;
+    margin-left: 240px;
+    margin-top: -15px;
    }
    .end-333 img {
     
    width: 55px;
-  margin-left: -100px;
+  margin-left: -90px;
    }
    .en-333{
 margin-top: -50px;
@@ -3189,26 +3294,24 @@ margin-top: -50px;
     margin-top: -50px;
    }
    .money {
+    margin-top: -200px;
     margin-left: -90px;
    }
    .jimin {
-    margin-left: -830px;
+    padding-top: 100px;
+    margin-left: -990px;
     width: 20px;
     height: 20px;
    }
   .foott {
     margin-left: 150px;
   }
-  .end {
-    margin-top: 10px;
-    margin-left: 50px;
-  }
-
+ 
   .cards {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: -10px;
   }
 }
 @media (max-width: 400px) {
@@ -3218,7 +3321,8 @@ margin-top: -50px;
     }
     .header {
         width: 400px;
-      
+        word-wrap: break-word;
+        width: 330px;
     }
     .start img {
         width: 100px ;
@@ -3228,6 +3332,9 @@ margin-top: -50px;
     }
       .start {
    margin-left: -30px;
+    }
+    .col {
+        display: none;
     }
     /* hey  */
     #menuToggle {
@@ -3240,7 +3347,7 @@ margin-top: -50px;
 display: block;
 position: relative;
 top: 7px;
-left: -300px;
+left: 240px;
 margin-top: 35px;
 z-index: 1;
 
@@ -3402,15 +3509,20 @@ transform: none;
     .header {
         margin-top: -65px;
     }
+    .start-3 {
+        word-wrap: break-word;
+        margin-left: -300px;
+    }
     .start-1 h2  {
        margin-top: 40px;
         padding-top: 5px;
      font-size: 20px;
+     margin-left: -30px;
     }
     .start-2 button  {
         position: relative;
         transform: translateY(16px);
-       margin-left: -500px;
+       margin-left: 270px;
        width: 80px;
        height: 30px;
        font-size: 15px;
@@ -3421,14 +3533,16 @@ transform: none;
         display: none;
     }
     .jk-1 {
+        word-wrap: break-word;
       margin-top: 50px;
-      margin-left: 300px;
+      margin: 0 0 0 -270px;
+
     }
     .jk-1 h1 {
         position: relative;
   font-size: 35px;
-  margin-left: -350px;
-  margin-top: -290px;
+  margin-left: 100px;
+  margin-top: -220px;
   
     }
     .we {
@@ -3441,7 +3555,7 @@ transform: none;
   font-size: 20px;
   margin-top: 10px;
   width: 350px;
- margin-left: -350px;
+ margin-left: 100px;
     }
     .jk-2 {
         position: relative;
@@ -3472,7 +3586,7 @@ transform: none;
    display: none;
     }
     .jkk {
-        margin: 100px 0;
+        margin: 10px 0;
         width: 0;
         height: 0;
     }
@@ -3483,7 +3597,7 @@ transform: none;
     }
     .jkk img {
         position: absolute;
-        right: 140px;
+        right: -20px;
         padding-top: -100px;
     }
     .start-3 img {
@@ -3549,8 +3663,10 @@ transform: none;
     width: 300px;
    }
    .card-4 {
+    word-wrap: break-word;
+    width: 380px;
     position: relative;
-    margin-left: 430px;
+    margin-left: -430px;
     width: 300px;
     gap: 20px;
     margin-top: -30px;
@@ -3583,36 +3699,78 @@ transform: none;
     flex-direction: column;
     
    }
+   #info {
+    word-wrap: break-word;
+    width: 380px;
+    margin-top: -300px;
+   }
    .info-1 {
     width: 100px;
     height: 100px;
+    margin-left: -900px;
    }
    .info-2 {
     width: 100px;
     height: 100px;
+    margin-left: -100px;
    }
    .boo  {
     width: 300px;
     height: 300px;
-    margin-left: -60px;
+    margin-left: 420px;
    }
    .info-4 {
+    word-wrap: break-word;
+  margin-left: 10px;
+   }
+   .info-4 img {
     width: 200px;
-    height: 100px;
-    margin: 0;
-    margin-top: -800px;
-    margin-left: -230px;
+    height: 200px;position: absolute;
+    left: 100px;
+    margin-top: 100px;
+    
+   } 
+   .info {
+    word-wrap: break-word;
+    width: 370px;
+    margin-left: -200px;
    }
    .flower {
-    position: absolute;
-    transform: translateX(-80px);
+    width: 360px;
+    margin-left: -600px;
     margin-top: -680px;
+   }
+   .flol {
+    margin-left: 1050px;
+   }
+   .people {
+    margin-left: 1150px;
+    margin-top: -200px;
+    position: absolute;
+    transform: translateY(784px);
+   }
+   .film {
+    display: none;
+   }
+   .floooo {
+    word-wrap: break-word;
+    width: 380px;
+   }
+   .flo {
+    margin-left: 1220px;
+    position: relative;
+    transform: translateY(-240px);
+   }
+   .how {
+    margin-left: 1270px;
+    position: relative;
+    transform: translateY(-418px);
    }
    .flowers {
     margin-top: 107px;
-    margin-left: -68px;
 width: 70px;
 height: 88px;
+padding-left: 40px;
    }
    .flol {
 height: 200px;
@@ -3627,28 +3785,38 @@ margin-right: 140px;
     width: 90px; ;
     
    }
+   #sky {
+    word-wrap: break-word;
+    width: 380px;
+   }
    .info-20 {
     position: absolute;
-    left: 40px;
+    left: 60px;
     margin-top: -315px;
     width: 260px;
     height: 10px;
     
    }
    .info-99 {
-    padding-top: 300px;
-    margin-left: -37px;
+    margin-top: -400px;
+    word-wrap: break-word;
+    width: 380px;
+    margin-left: -850px;
    }
    .info-99 h1 {
-    margin-top: -100px;
-   margin-left: -50px;
-   font-size: 20px;
-   line-height: 30px;
+   margin-top: -200px;
+   margin-left: 140px;
+   width: 300px;
+   font-size: 25px;
+   margin-top: -300px;
+   margin: -60px 0 50px 130px;
    }
    .info-99 p {
-    margin-top: -50px;
-   font-size: 13px;
-   margin-left: -50px;
+    word-wrap: break-word;
+   font-size: 15px;
+   width: 300px;
+   margin-left: 130px;
+   line-height: 25px;
    }
    .sky {
     display: flex;
@@ -3682,16 +3850,18 @@ top: -10px;
    }
    .flyy h2 {
 font-size: 20px;
-margin-left: -130px;
+margin-left: 20px;
    }
    .flyy {
+    word-wrap: break-word;
+    width: 360px;
 margin-top: 300px;
-margin-left: 220px;
+margin-left: -200px;
    }
    .flyy p {
    font-size: 13px;
-   margin-left: -130px;
-   width: 600px;
+   margin-left: 20px;
+   width: 340px;
    }
    .blue button {
     width: 100px;
@@ -3710,7 +3880,13 @@ margin-left: 220px;
     
    }
    .blue {
-    margin-left: -120px;
+    margin-left: 20px;
+    width: 340px;
+
+   }
+   #cardddd {
+    word-wrap: break-word;
+    width: 380px;
    }
    .nextti img {
     width: 80px;
@@ -3838,17 +4014,20 @@ filter: blur(116px);
    }
    .cardddd h1 {
     margin-top: -300px;
-font-size: 25px;
+font-size: 20px;
 margin-left: 10px;
-line-height: 30px;
+width: 340px;
    }
    .cardddd {
+    word-wrap: break-word;
+    width: 360px;
    margin-top: 430px;
    }
    .cardddd p {
-    width: 500px;
+    width: 340px;
 font-size: 13px;
-margin-left: -60px;
+margin-left: -10px;
+line-height: 20px;
    }
    .cards {
     margin-left: 180px;
@@ -3903,6 +4082,11 @@ margin-left: 110px;
     width: 340px;
     height: 250px;
 
+   }
+   #element {
+    word-wrap: break-word;
+    width: 360px;
+    margin-top: 140px;
    }
    .elementt h2 {
     margin-top: -50px;
@@ -3999,18 +4183,19 @@ font-size: 13px;
 line-height: 20px;
    }
    hr {
-    width: 300px;
+    width: 340px;
     position: relative;
-    transform: translateX(-270px);
+    transform: translateX(60px);
+    margin-top: -146px;
    }
    .end-44 {
     margin-left: 340px;
-    margin-top: -5px;
+    margin-top: 305px;
    }
    .end-333 img {
     
    width: 55px;
-  margin-left: -110px;
+  margin-left: -100px;
    }
    .en-333{
 margin-top: -50px;
