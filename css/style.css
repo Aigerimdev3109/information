@@ -3502,13 +3502,20 @@ transform: none;
         width: 40px;
         height: 40px;
       margin-top: 10px;
-      margin-left: 30px;
+      margin-left: 20px;
     }
     .start-1 {
         margin-top: 100px;
         margin-left:260px;
     }
-   
+   #header {
+    width: 300px;
+    word-wrap: break-word;
+   }
+   #hero {
+    word-wrap: break-word;
+    width: 300px;
+   }
     .header {
         margin-top: -65px;
     }
@@ -3520,7 +3527,7 @@ transform: none;
        margin-top: 40px;
         padding-top: 5px;
      font-size: 20px;
-     margin-left: -50px;
+     margin-left: -60px;
     }
     .start-2 button  {
         position: relative;
@@ -3543,8 +3550,8 @@ transform: none;
     }
     .jk-1 h1 {
         position: relative;
-  font-size: 35px;
-  margin-left: 100px;
+  font-size: 28px;
+  margin-left: 180px;
   margin-top: -220px;
   
     }
@@ -3554,11 +3561,11 @@ transform: none;
         right: 500px;
     }
     .jk-1 p {
-      margin: -20px 0;
-  font-size: 20px;
+      margin: -30px 0;
+  font-size: 15px;
   margin-top: -10px;
-  width: 350px;
- margin-left: 100px;
+  width: 300px;
+ margin-left: 180px;
     }
     .jk-2 {
         position: relative;
@@ -3593,6 +3600,7 @@ transform: none;
         width: 0;
         height: 0;
     }
+
     .jk {
         display: flex;
         align-items: center;
@@ -3600,7 +3608,7 @@ transform: none;
     }
     .jkk img {
         position: absolute;
-        right: 40px;
+        right: 30px;
        margin-top: 1090px;
     }
     .start-3 img {
@@ -3633,9 +3641,9 @@ transform: none;
    }
    .jk-10 {
     position: relative;
-    width: 400px;
+    width: 300px;
     height:300px;
-    margin-top: 150px;
+    margin-top: 130px;
    }
    .card-2 {
     position: relative;
@@ -4220,8 +4228,7 @@ margin-top: -50px;
     margin-top: -50px;
    }
    .money {
-    margin-left: -90px;
-    margin-top: -180px;
+    display: none;
    }
    .jimin {
     display: none;
